@@ -19,7 +19,7 @@ jobs:
           sha256sum gost-linux-amd64
 
       - name: Upload Binary
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: gost-linux-amd64
           path: gost-linux-amd64
